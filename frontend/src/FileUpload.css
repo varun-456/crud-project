@@ -1,0 +1,36 @@
+/* src/components/UploadFile.css */
+.upload-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .upload-container .form-control {
+    margin-bottom: 10px;
+  }
+  
+  .upload-container button {
+    display: block;
+    width: 100%;
+  }
+  
+  .upload-container p {
+    text-align: center;
+  }
+  
+  .upload-container p.error {
+    color: red;
+  }
+  
+  .upload-container p.success {
+    color: green;
+  }
+  

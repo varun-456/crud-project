@@ -1,0 +1,167 @@
+/* Adminpanel.css */
+
+.admin-panel-container {
+  font-family: 'Arial', sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-group .btn {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-group .btn:hover {
+  opacity: 0.9;
+}
+
+.button-group .btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.button-group .btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.button-group .btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.button-group .btn-warning {
+  background-color: #ffc107;
+  color: white;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table th {
+  background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table .email-field {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.table .address-field {
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.table .phone-field {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.table .ethereum-field {
+  color: #ff3bdb;
+  font-weight: bold;
+}
+
+.table .role-field {
+  color: #9c27b0;
+  font-weight: bold;
+}
+
+.table .approved-field {
+  color: #00bcd4;
+  font-weight: bold;
+}
+
+.table .action-field {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.files-section,
+.histories-section {
+  margin-bottom: 20px;
+}
+
+.files-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-item {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.history-item {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.history-item h4 {
+  margin-top: 0;
+}
+
+.history-item p {
+  margin: 5px 0;
+}
+
+.history-item hr {
+  margin: 10px 0;
+}

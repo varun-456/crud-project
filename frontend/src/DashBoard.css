@@ -1,0 +1,38 @@
+/* src/components/Dashboard.css */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .dropdown-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-header .user-info {
+    margin-left: 10px;
+  }
+  
+  .dropdown-header .user-info h5,
+  .dropdown-header .user-info p {
+    margin: 0;
+  }
+  
